@@ -73,6 +73,10 @@ h2 {
 }
 
 /* Services */
+.services {
+    text-align: center;
+}
+
 .services ul {
     list-style: none;
 }
