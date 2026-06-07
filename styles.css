@@ -101,6 +101,11 @@ a:hover {
     text-align: center;
 }
 
+/* Games */
+.games {
+    text-align: center;
+}
+
 /* Footer */
 footer {
     background-color: black;
