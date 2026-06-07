@@ -58,6 +58,16 @@ h2 {
     margin-bottom: 1rem;
 }
 
+a {
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+}
+
+a:hover {
+    color: #cccccc;
+}
+
 /* Hero Section */
 .hero {
     background: black;
