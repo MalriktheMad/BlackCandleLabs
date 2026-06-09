@@ -65,7 +65,7 @@ a {
 }
 
 a:hover {
-    color: #cccccc;
+    color: #f0c36a;
 }
 
 /* Hero Section */
@@ -106,8 +106,51 @@ a:hover {
     text-align: center;
 }
 
-.games p {
-    margin: 1.25rem 0;
+.games h2 {
+    color: #f0c36a;
+}
+
+.games-intro {
+    max-width: 720px;
+    margin: 0 auto 2rem;
+}
+
+.game-list {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.game-card {
+    background: radial-gradient(circle at top, rgba(240, 195, 106, 0.14), rgba(255, 255, 255, 0.04) 45%, rgba(255, 255, 255, 0.02));
+    padding: 1.5rem;
+    box-shadow: 0 0 24px rgba(240, 195, 106, 0.12);
+}
+
+.game-title {
+    color: #f0c36a;
+    font-size: 1.35rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.game-status {
+    color: #dddddd;
+    margin-bottom: 1rem;
+}
+
+.game-link {
+    display: inline-block;
+    color: black;
+    background-color: #f0c36a;
+    padding: 0.65rem 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.game-link:hover {
+    color: black;
+    background-color: white;
 }
 
 /* Footer */
@@ -136,5 +179,9 @@ footer {
 
     .hero h2 {
         font-size: 1.8rem;
+    }
+
+    .game-list {
+        grid-template-columns: 1fr;
     }
 }
