@@ -106,8 +106,13 @@ a:hover {
     text-align: center;
 }
 
-.games h2 {
-    color: #f0c36a;
+.games-logo {
+    display: block;
+    width: 96px;
+    height: auto;
+    margin: 0 auto 1.25rem;
+    image-rendering: pixelated;
+    filter: drop-shadow(0 0 14px rgba(240, 195, 106, 0.2));
 }
 
 .games-intro {
@@ -179,6 +184,10 @@ footer {
 
     .hero h2 {
         font-size: 1.8rem;
+    }
+
+    .games-logo {
+        width: 84px;
     }
 
     .game-list {
