@@ -194,3 +194,91 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+/* Service Pages */
+.service-link {
+    display: inline-block;
+    color: #f0c36a;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.25rem 0;
+}
+
+.service-link:hover {
+    color: white;
+}
+
+.contact-list {
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.service-page {
+    max-width: 760px;
+    margin: 0 auto 2rem;
+    text-align: center;
+}
+
+.page-intro {
+    max-width: 680px;
+    margin: 0 auto 2rem;
+    color: #dddddd;
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    color: #f0c36a;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    color: white;
+}
+
+.support-form {
+    display: grid;
+    gap: 0.85rem;
+    max-width: 640px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.support-form label {
+    color: #f0c36a;
+    font-weight: bold;
+}
+
+.support-form input,
+.support-form textarea {
+    width: 100%;
+    color: white;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(240, 195, 106, 0.35);
+    padding: 0.8rem;
+    font: inherit;
+}
+
+.support-form input:focus,
+.support-form textarea:focus {
+    outline: none;
+    border-color: #f0c36a;
+    box-shadow: 0 0 18px rgba(240, 195, 106, 0.16);
+}
+
+.form-button {
+    justify-self: center;
+    margin-top: 0.75rem;
+    color: black;
+    background-color: #f0c36a;
+    border: 0;
+    padding: 0.75rem 1.1rem;
+    font: inherit;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    background-color: white;
+}

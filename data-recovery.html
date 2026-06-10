@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Recovery - Black Candle Labs</title>
+    <link rel="icon" type="image/x-icon" href="logos/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logos/Black Mage.jpg" alt="Black Candle Labs Logo" class="logo-img">
+            <h1>Black Candle Labs</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="service-page">
+            <a class="back-link" href="index.html">Back to main page</a>
+            <h2>Data Recovery</h2>
+            <p class="page-intro">Tell me what happened to the drive, phone, card, or computer. If possible, stop using the device until we talk so the files have the best chance of recovery.</p>
+
+            <form class="support-form" action="#" method="post">
+                <label for="recovery-name">Name</label>
+                <input id="recovery-name" name="name" type="text" autocomplete="name" required>
+
+                <label for="recovery-email">Email</label>
+                <input id="recovery-email" name="email" type="email" autocomplete="email" required>
+
+                <label for="recovery-phone">Phone</label>
+                <input id="recovery-phone" name="phone" type="tel" autocomplete="tel">
+
+                <label for="recovery-device">Device or storage type</label>
+                <input id="recovery-device" name="device" type="text" placeholder="Hard drive, SSD, USB drive, SD card, phone, laptop, etc.">
+
+                <label for="recovery-event">What happened?</label>
+                <textarea id="recovery-event" name="event" rows="7" placeholder="Describe the failure, deleted files, noises, water damage, error messages, or anything unusual." required></textarea>
+
+                <label for="recovery-files">What files matter most?</label>
+                <textarea id="recovery-files" name="files" rows="5" placeholder="Photos, documents, business files, game saves, school work, etc."></textarea>
+
+                <button class="form-button" type="submit">Submit Recovery Request</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Black Candle Labs. All rights reserved.</p>
+    </footer>
+</body>
+</html>
